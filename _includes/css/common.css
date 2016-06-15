@@ -1,0 +1,126 @@
+html
+{
+	margin: 0;
+	padding: 0;
+	
+	font-family: Alcubierre;
+	letter-spacing: 25px;
+	text-align: center;
+	
+}
+
+@font-face 
+{
+font-family: Alcubierre;
+src: url("{{site.baseurl}}/Alcubierre.otf") format("opentype");
+}
+
+@font-face 
+{
+font-family: OS;
+src: url("{{site.baseurl}}/OSL.ttf") format("truetype");
+}
+
+.center 
+{
+  height: 100px;
+  line-height: 35px;
+  text-align: center;
+  -webkit-transform: translate(-50%, 0); 
+  position: absolute;
+  top: 22%;
+  left: 50%;
+}
+
+/* unvisited link */
+a:link {
+    color: #FF5733;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #CD4528;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+    text-decoration: none;
+}
+
+
+.resume
+{
+	font-family: OS;
+	width: 55%;
+	letter-spacing: 8px;	
+	line-height: 25px;
+	top: 40%;
+
+}
+
+.letterspaced
+{
+	letter-spacing: 50px;
+}
+
+.letterspacedharder
+{
+	letter-spacing: 35px;
+}
+
+.titleContainer
+{
+	position: relative;
+	left: 1%;
+}
+
+.line
+{
+	width: 230px;
+	height: 1px;
+	background-color: black;
+}
+
+.title
+{
+	text-align: left;
+	line-height: 1px;
+	position: relative;
+	left: .5%; 
+}
+
+
+.windowPane
+{
+	background-color: white;
+	width: 379px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center
+}
+
+.grid
+{
+	content: "";
+ 	display: table;
+  	clear: both;
+}
+
+.centered
+{
+   
+}
+
+
