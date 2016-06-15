@@ -28,7 +28,7 @@ src: url("/OSL.ttf") format("truetype");
   text-align: center;
   -webkit-transform: translate(-50%, 0); 
   -moz-transform: translate(-50%, 0);
-  -o-transform: translate(-50%, 0);
+  -o-transform: translate(-51%, 0);
   -ms-transform: translate(-50%, 0);
   position: absolute;
   top: 22%;
